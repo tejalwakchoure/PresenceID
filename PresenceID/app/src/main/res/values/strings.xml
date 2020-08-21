@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PresenceID</string>
+    <string name="presenceid">PresenceID</string>
+    <string name="student_login">STUDENT LOGIN</string>
+    <string name="email">Email</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="mark_attendance">MARK ATTENDANCE</string>
+    <string name="todo">TODO</string>
+</resources>

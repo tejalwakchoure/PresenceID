@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "858223120564",
+    "firebase_url": "https://presenceid-108c1.firebaseio.com",
+    "project_id": "presenceid-108c1",
+    "storage_bucket": "presenceid-108c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858223120564:android:9abae46138b0ae6f",
+        "android_client_info": {
+          "package_name": "com.example.PresenceID"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858223120564-v47846qc4mavkl1cq9qug39454q4h0oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF5OE5GICyDfjif3n44QF0gVdIztRV2Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858223120564-v47846qc4mavkl1cq9qug39454q4h0oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

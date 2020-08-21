@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp">
+
+    <EditText
+        android:id="@+id/RegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RegEmail"
+        android:layout_centerHorizontal="true"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:layout_centerHorizontal="true"
+        android:hint="Institute ID (for students only)"
+        android:inputType="number"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/RegPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ID"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <CheckBox
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RegPwd"
+        android:buttonTint="@color/colorPrimaryDark"
+        android:text="Course 1" />
+
+
+
+    <RadioButton
+            android:id="@+id/RegStud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/course1"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Student" />
+
+    <RadioButton
+            android:id="@+id/RegTeach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/course1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/RegStud"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Teacher" />
+
+    <Button
+        android:id="@+id/UploadPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/RegStud"
+        android:text="UPLOAD PHOTO"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginVertical="20dp"
+        android:paddingHorizontal="20dp"
+        />
+
+    <ImageView android:id="@+id/Camera"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/UploadPhoto"
+        android:src="@drawable/ic_launcher_background">
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Camera"
+        android:text="REGISTER"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginVertical="20dp"
+        android:paddingHorizontal="20dp"
+        />
+
+</RelativeLayout>

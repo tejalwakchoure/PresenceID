@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/presenceid"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/StudentButton"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginVertical="40dp"
+        />
+
+    <Button
+        android:id="@+id/StudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/student_login"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        />
+
+    <Button
+        android:id="@+id/TeacherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TEACHER LOGIN"
+        android:layout_below="@+id/StudentButton"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        />
+
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="New User? Register Here"
+        android:layout_below="@+id/TeacherButton"
+        android:textColor="@color/colorPrimaryDark"
+        android:clickable="true"
+        />
+
+</RelativeLayout>
